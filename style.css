@@ -1,0 +1,33 @@
+*{
+    border : dashed #0000FF;
+}
+
+.header{
+    border: dashed #00FF00;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+h1{
+    background-color : #F169E1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color : dashed #F0FFFF;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    background-color: #7B68EE;
+}
+p{
+    background-color: #20B2AA;
+    font-size: 20px;
+    font-weight: lighter;
+    font: outline;
+    text-align: center;
+    font-family: fantasy;
+}
