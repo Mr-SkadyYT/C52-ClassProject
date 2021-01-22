@@ -1,6 +1,3 @@
-*{
-    border : dashed #0000FF;
-}
 
 .header{
     border: dashed #00FF00;
@@ -30,4 +27,28 @@ p{
     font: outline;
     text-align: center;
     font-family: fantasy;
+}
+.header *{
+    border: dashed black;
+    margin : 5px ;
+    padding : 15px ;
+}
+
+.intro *{
+    padding : 5px ;
+    margin : 5px ;
+}
+
+.img{
+    position: relative;
+}
+.img p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    opacity:0;
+}
+.img:hover p{
+    opacity : 1;
 }
